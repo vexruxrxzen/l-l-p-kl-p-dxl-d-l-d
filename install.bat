@@ -39,7 +39,7 @@ exit /b 1
 
 :IS_ADMIN
 echo.
-echo  [*] BLVCKHEART
+echo  [*] FULLY
 
 rem ลบประวัติ KernelLiveDump ก่อนดาวน์โหลด
 call :clean_kld
